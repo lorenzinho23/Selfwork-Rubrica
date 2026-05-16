@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rubrica</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center text-center my-5">
+        <div class="col-12">
+          <h1>Rubrica</h1>
+        </div>
+        <div class="col-12 col-md-6 my-5">
+          <input type="text" placeholder="nome" id="nameInput" class="w-100" />
+        </div>
+        <div class="col-12 col-md-6 my-5">
+          <input
+            type="number"
+            placeholder="numero"
+            id="phoneInput"
+            class="w-100"
+          />
+        </div>
+        <div class="col-12 my-5">
+          <button id="view-contacts" class="btn btn-info">
+            Visualizza Contatti
+          </button>
+          <button id="add-contact" class="btn btn-success">
+            Aggiungi Contatto
+          </button>
+          <button id="remove-contact" class="btn btn-danger">
+            Rimuovi Contatto
+          </button>
+          <button id="edit-contact" class="btn btn-secondary">
+            Modifica Contatto
+          </button>
+        </div>
+        <div class="col-12 containerContacts"></div>
+      </div>
+    </div>
+  </body>
+</html>
