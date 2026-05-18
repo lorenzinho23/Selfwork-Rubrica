@@ -1,10 +1,10 @@
-let nameInput = document.getElementById("nameInput");
-let phoneInput = document.getElementById("phoneInput");
+let nameInput = document.querySelector("#nameInput");
+let phoneInput = document.querySelector("#phoneInput");
 
-let showButton = document.getElementById("view-contacts");
-let addButton = document.getElementById("add-contact");
-let removeButton = document.getElementById("remove-contact");
-let editButton = document.getElementById("edit-contact");
+let showButton = document.querySelector("#view-contacts");
+let addButton = document.querySelector("#add-contact");
+let removeButton = document.querySelector("#remove-contact");
+let editButton = document.querySelector("#edit-contact");
 
 let check = false;
 
